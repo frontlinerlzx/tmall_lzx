@@ -19,4 +19,9 @@ public class AdminPageController {
     public String categoryList() {
         return "admin/listCategory";
     }
+
+    @GetMapping("/admin_category_edit")
+    public String editcategory() {
+        return "admin/editCategory";
+    }
 }

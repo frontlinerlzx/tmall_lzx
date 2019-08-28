@@ -97,9 +97,10 @@
         }
 
         //跳转函数
-        function jumpByNumber(start, vue) {
-            if (start != vue.pagination.number)
-                vue.list(start);
+        function jumpByNumber(jumpPage, vue) {
+            if (jumpPage != vue.pagination.number) {
+                vue.list(jumpPage);
+            }
         }
     </script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">

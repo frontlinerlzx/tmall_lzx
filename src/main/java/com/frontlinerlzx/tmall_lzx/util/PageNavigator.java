@@ -104,14 +104,14 @@ public class PageNavigator<T> {
             int startNum = number - navigatePages / 2; //开始页码
             int endNum = number + navigatePages / 2;//结束页码
             navigatepageNums = new int[navigatePages];
-            if (startNum < 0) {//当开始页码小于0
-                startNum = 0;
-                for (int i = 0; i <= navigatePages; i++) {
+            if (startNum < 1) {//当开始页码小于0
+                startNum = 1;
+                for (int i = 0; i < navigatePages; i++) {
                     navigatepageNums[i] = startNum++;
                 }
             } else if (endNum > totalPages) {//当结束页码大于总页码
-                startNum = totalPages;
-                for (int i = totalPages - 1; i >= 0; i--) {
+                endNum = totalPages;
+                for (int i = navigatePages - 1; i >= 0; i--) {
                     navigatepageNums[i] = endNum--;
                 }
             } else {//处于中间，默认状态

@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77aa93fe-6873-4ea5-a286-a0381c5a103d" name="Default" comment="1.后台商品分类&#10;2.分页+导航栏显示范围">
-      <change beforePath="" afterPath="$PROJECT_DIR$/data/elasticsearch/nodes/0/_state/global-84.st" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/util/ImageUtil.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/editCategory.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/category/92.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/category/93.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/category/94.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/img/category/95.jpg" />
+    <list default="true" id="77aa93fe-6873-4ea5-a286-a0381c5a103d" name="Default" comment="后台商品分类&#10;1.增加商品的添加功能&#10;2.增加商品的删除功能&#10;3.增加商品的编辑和更新功能&#10;4.修复导航栏显示数量的错误bug&#10;5.修复导航栏点击页码无法跳转">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/data/elasticsearch/nodes/0/_state/global-16.st" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/service/CategoryService.java" afterPath="$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/service/CategoryService.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/util/PageNavigator.java" afterPath="$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/util/PageNavigator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/web/AdminPageController.java" afterPath="$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/web/AdminPageController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/web/CategoryController.java" afterPath="$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/web/CategoryController.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/admin/listCategory.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/admin/listCategory.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminHeader.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminHeader.html" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminPage.html" afterPath="$PROJECT_DIR$/src/main/resources/templates/include/admin/adminPage.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/frontlinerlzx/tmall_lzx/service/CategoryService.class" afterPath="$PROJECT_DIR$/target/classes/com/frontlinerlzx/tmall_lzx/service/CategoryService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/frontlinerlzx/tmall_lzx/util/PageNavigator.class" afterPath="$PROJECT_DIR$/target/classes/com/frontlinerlzx/tmall_lzx/util/PageNavigator.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/frontlinerlzx/tmall_lzx/web/AdminPageController.class" afterPath="$PROJECT_DIR$/target/classes/com/frontlinerlzx/tmall_lzx/web/AdminPageController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/frontlinerlzx/tmall_lzx/web/CategoryController.class" afterPath="$PROJECT_DIR$/target/classes/com/frontlinerlzx/tmall_lzx/web/CategoryController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/admin/listCategory.html" afterPath="$PROJECT_DIR$/target/classes/templates/admin/listCategory.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/include/admin/adminHeader.html" afterPath="$PROJECT_DIR$/target/classes/templates/include/admin/adminHeader.html" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/include/admin/adminPage.html" afterPath="$PROJECT_DIR$/target/classes/templates/include/admin/adminPage.html" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +24,8 @@
       <file leaf-file-name="editCategory.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/editCategory.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="96">
+              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -69,14 +47,14 @@
             <state relative-caret-position="177">
               <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
               <folding>
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#1475#1476#0" expanded="true" />
-                <element signature="e#1513#1514#0" expanded="true" />
-                <element signature="e#1616#1617#0" expanded="true" />
-                <element signature="e#1662#1663#0" expanded="true" />
-                <element signature="e#1747#1748#0" expanded="true" />
-                <element signature="e#1785#1786#0" expanded="true" />
+                <element signature="e#1421#1422#0" expanded="true" />
+                <element signature="e#1459#1460#0" expanded="true" />
+                <element signature="e#1493#1494#0" expanded="true" />
+                <element signature="e#1531#1532#0" expanded="true" />
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1674#1675#0" expanded="true" />
+                <element signature="e#1767#1768#0" expanded="true" />
+                <element signature="e#1805#1806#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/web/CategoryController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="283">
-              <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+              <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -217,108 +195,7 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="frontlinerlzx" type="462c0819:PsiDirectoryNode" />
               <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="frontlinerlzx" type="462c0819:PsiDirectoryNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="CategoryService" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="frontlinerlzx" type="462c0819:PsiDirectoryNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="frontlinerlzx" type="462c0819:PsiDirectoryNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tmall_lzx" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tmall_lzx" type="b2602c69:ProjectViewProjectNode" />
@@ -505,7 +382,7 @@
       <option name="presentableId" value="Default" />
       <updated>1566919855116</updated>
       <workItem from="1566919856309" duration="704000" />
-      <workItem from="1566981436911" duration="17442000" />
+      <workItem from="1566981436911" duration="18111000" />
     </task>
     <task id="LOCAL-00001" summary="1.后台商品分类&#10;2.分页+导航栏显示范围">
       <created>1566920197483</created>
@@ -514,15 +391,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566920197483</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="后台商品分类&#10;1.增加商品的添加功能&#10;2.增加商品的删除功能&#10;3.增加商品的编辑和更新功能&#10;4.修复导航栏显示数量的错误bug&#10;5.修复导航栏点击页码无法跳转">
+      <created>1567008855359</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567008855359</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18146000" />
+    <option name="totallyTimeSpent" value="18815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
@@ -540,11 +423,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19200888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32963374" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19200888" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24302575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24302575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
@@ -566,7 +449,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.后台商品分类&#10;2.分页+导航栏显示范围" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.后台商品分类&#10;2.分页+导航栏显示范围" />
+    <MESSAGE value="后台商品分类&#10;1.增加商品的添加功能&#10;2.增加商品的删除功能&#10;3.增加商品的编辑和更新功能&#10;4.修复导航栏显示数量的错误bug&#10;5.修复导航栏点击页码无法跳转" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台商品分类&#10;1.增加商品的添加功能&#10;2.增加商品的删除功能&#10;3.增加商品的编辑和更新功能&#10;4.修复导航栏显示数量的错误bug&#10;5.修复导航栏点击页码无法跳转" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -628,8 +513,8 @@
         <state relative-caret-position="323">
           <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
-            <element signature="e#550#551#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -647,14 +532,14 @@
         <state relative-caret-position="177">
           <caret line="48" column="23" lean-forward="false" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
           <folding>
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#1475#1476#0" expanded="true" />
-            <element signature="e#1513#1514#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1662#1663#0" expanded="true" />
-            <element signature="e#1747#1748#0" expanded="true" />
-            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
+            <element signature="e#1459#1460#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1531#1532#0" expanded="true" />
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1674#1675#0" expanded="true" />
+            <element signature="e#1767#1768#0" expanded="true" />
+            <element signature="e#1805#1806#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -670,15 +555,15 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/frontlinerlzx/tmall_lzx/web/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
-          <caret line="62" column="22" lean-forward="true" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/admin/editCategory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state relative-caret-position="96">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding />
         </state>
       </provider>

@@ -24,4 +24,28 @@ public class AdminPageController {
     public String editcategory() {
         return "admin/editCategory";
     }
+
+    @GetMapping("/admin_property_list")
+    public String listProperty() {
+        return "admin/listProperty";
+    }
+
+    @GetMapping("/admin_property_edit")
+    public String editProperty() {
+        return "admin/editProperty";
+    }
+
+    @GetMapping("/admin_product_list")
+    public String listProduct() {
+        return "admin/listProduct";
+    }
+
+    @GetMapping("/admin_product_edit")
+    public String editProduct() {
+        return "admin/editProduct";
+    }
+
+
+
+
 }

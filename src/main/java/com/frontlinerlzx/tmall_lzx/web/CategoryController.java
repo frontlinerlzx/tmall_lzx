@@ -32,9 +32,9 @@ public class CategoryController {
 
 
     @GetMapping("/categories")
-    public PageNavigator<Category> list(@RequestParam(value = "number", defaultValue = "0") int number, @RequestParam(value = "size", defaultValue = "5") int size) throws Exception {
+    public PageNavigator<Category> list(@RequestParam(value = "number", defaultValue = "0") int number, @RequestParam(value = "size", defaultValue = "3") int size) throws Exception {
         number = number < 0 ? 0 : number;
-        return categoryService.list(number, size, 5);
+        return categoryService.list(number, size, 3);
     }
 
     @PostMapping("/categories")

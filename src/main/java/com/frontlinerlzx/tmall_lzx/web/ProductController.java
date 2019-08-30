@@ -1,6 +1,7 @@
 package com.frontlinerlzx.tmall_lzx.web;
 
 import com.frontlinerlzx.tmall_lzx.pojo.Product;
+import com.frontlinerlzx.tmall_lzx.service.ProductImageService;
 import com.frontlinerlzx.tmall_lzx.service.ProductService;
 import com.frontlinerlzx.tmall_lzx.util.PageNavigator;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,11 +16,16 @@ public class ProductController {
 
     @Autowired
     ProductService productService;
+    @Autowired
+    ProductImageService productImageService;
 
     @GetMapping("/categories/{cid}/products")
     public PageNavigator<Product> list(@PathVariable("cid") int cid, @RequestParam(value = "number", defaultValue = "0") int number, @RequestParam(value = "size", defaultValue = "3") int size) throws Exception {
         number = number < 0 ? 0 : number;
-        return productService.list(cid, number, size, 3);
+        PageNavigator page = productService.list(cid, number, size, 3);
+        productImageService.setFirstProdutImages(page.getContent());
+
+        return page;
     }
 
     @PostMapping("/products")

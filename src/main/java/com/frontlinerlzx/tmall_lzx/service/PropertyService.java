@@ -11,6 +11,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * @author lzx
  * @create 2019-08-29-11:54
@@ -46,6 +48,10 @@ public class PropertyService {
         Pageable pageable = new PageRequest(number, size, sort);
         Page<Property> pageFromJPA = propertyDao.findByCategory(category, pageable);
         return new PageNavigator<Property>(pageFromJPA, navigatePages);
+    }
+
+    public List<Property> list(Category category) {
+        return propertyDao.findByCategory(category);
     }
 
 

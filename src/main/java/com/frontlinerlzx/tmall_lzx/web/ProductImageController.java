@@ -36,7 +36,7 @@ public class ProductImageController {
      * @return
      */
     @GetMapping("/products/{pid}/productImages")
-    public List<ProductImage> list(@RequestParam("type") String type, @PathVariable("pid") int pid) {
+    public List<ProductImage> list(@RequestParam("type") String type, @PathVariable("pid") int pid) throws Exception {
         Product product = productService.get(pid);
         if (type.equals(productImageService.type_single))
             return productImageService.listSingleProductImages(product);
@@ -46,7 +46,7 @@ public class ProductImageController {
     }
 
     @PostMapping("/productImages")
-    public Object add(@RequestParam("pid") int pid, @RequestParam("type") String type, MultipartFile image, HttpServletRequest request) {
+    public Object add(@RequestParam("pid") int pid, @RequestParam("type") String type, MultipartFile image, HttpServletRequest request) throws Exception {
         Product product = productService.get(pid);
         ProductImage bean = new ProductImage();
         bean.setProduct(product);
@@ -88,7 +88,7 @@ public class ProductImageController {
     }
 
     @DeleteMapping("/productImages/{id}")
-    public String delete(@PathVariable("id") int id, HttpServletRequest request) {
+    public String delete(@PathVariable("id") int id, HttpServletRequest request) throws Exception {
         ProductImage bean = productImageService.get(id);
         productImageService.delete(id);
         String path = "img/";

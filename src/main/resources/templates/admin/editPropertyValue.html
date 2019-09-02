@@ -25,8 +25,8 @@
                 getProduct: function (pid) {
                     var url = 'products/' + pid;
                     axios.get(url).then(function (response) {
-                        this.product = response.data;
-                        this.category = response.data.category;
+                        vue.product = response.data;
+                        vue.category = response.data.category;
                     })
                 },
                 update: function (bean) {

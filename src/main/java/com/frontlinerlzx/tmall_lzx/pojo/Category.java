@@ -3,6 +3,7 @@ package com.frontlinerlzx.tmall_lzx.pojo;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 import javax.persistence.*;
+import java.util.List;
 
 /**
  * @author lzx
@@ -21,6 +22,49 @@ public class Category {
     private int id;
     @Column(name = "name")
     private String name;
+
+    @Transient
+    List<Product> products;
+    @Transient
+    List<List<Product>> productsByRow;
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public void setProducts(List<Product> products) {
+        this.products = products;
+    }
+
+    public List<List<Product>> getProductsByRow() {
+        return productsByRow;
+    }
+
+    public void setProductsByRow(List<List<Product>> productsByRow) {
+        this.productsByRow = productsByRow;
+    }
+
+    public void removerCategoryFromProduct(List<Category> categories) {
+        for (Category category : categories) {
+            removerCategoryFromProduct(category);
+        }
+    }
+
+    public void removerCategoryFromProduct(Category category) {
+        List<Product> products = category.getProducts();
+        if (products != null) {
+            for (Product product : products)
+                product.setCategory(null);
+
+        }
+        List<List<Product>> productsByRow = category.getProductsByRow();
+
+        if (productsByRow != null) {
+            for (List<Product> products1 : productsByRow)
+                for (Product product : products1)
+                    product.setCategory(null);
+        }
+    }
 
     public int getId() {
         return id;

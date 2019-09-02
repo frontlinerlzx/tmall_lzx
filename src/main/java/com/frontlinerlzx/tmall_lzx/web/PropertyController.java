@@ -23,7 +23,7 @@ public class PropertyController {
     }
 
     @PostMapping("/properties")
-    public Object add(@RequestBody Property bean) {
+    public Object add(@RequestBody Property bean) throws Exception {
         System.out.println(bean);
         propertyService.add(bean);
         return bean;

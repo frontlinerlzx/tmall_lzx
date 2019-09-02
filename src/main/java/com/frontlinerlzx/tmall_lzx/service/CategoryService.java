@@ -2,6 +2,7 @@ package com.frontlinerlzx.tmall_lzx.service;
 
 import com.frontlinerlzx.tmall_lzx.dao.CategoryDao;
 import com.frontlinerlzx.tmall_lzx.pojo.Category;
+import com.frontlinerlzx.tmall_lzx.pojo.Product;
 import com.frontlinerlzx.tmall_lzx.util.PageNavigator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -71,5 +72,26 @@ public class CategoryService {
      */
     public void update(Category bean) {
         categoryDao.save(bean);
+    }
+
+    public void removeCategoryFromProduct(List<Category> categories) {
+        for (Category category : categories)
+            removeCategoryFromProduct(category);
+    }
+
+    public void removeCategoryFromProduct(Category categories) {
+
+        List<Product> products = categories.getProducts();
+        for (Product product : products)
+            product.setCategory(null);
+
+        List<List<Product>> productByRow = categories.getProductsByRow();
+        if (productByRow == null) return;
+        for (List<Product> products1 : productByRow) {
+            for (Product product : products1)
+                product.setCategory(null);
+        }
+
+
     }
 }
